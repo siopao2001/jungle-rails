@@ -2,7 +2,37 @@
 
   <header class="page-header">
     <h1>Order #<%= @order.id %></h1>
+    <h1>Total $<%= @order.total_cents / 100  %></h1>
+    <h1>email :<%= @order.email %></h1>
+  
+
+     
   </header>
+  <div >
+  <table class="cart-show">
+    <thead>
+    <tr>
+      <th>Name</th>
+      <th>Image</th>
+      <th>Description</th>
+      <th>Quantity</th>
+      <th>Price</th>
+    </tr>
+  </thead>
+  <tbody>
+    
+      <% @products.each do |item| %>
+    <tr> 
+      <td><%= item.name %></td>
+      <td><%= image_tag item.image.url %></td>
+      <td><%= item.description %></td>
+      <td><%= item.quantity %></td>
+      <td>$<%= item.total_price_cents %></td>
+    </tr>
+     <% end %>
+  </tbody>
+</table>
+</div>
 
   <div class="order-summary jumbotron">
     <h4>Thank you for your order!</h4>
