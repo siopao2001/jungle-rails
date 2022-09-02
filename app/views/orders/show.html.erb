@@ -24,10 +24,10 @@
       <% @products.each do |item| %>
     <tr> 
       <td><%= item.name %></td>
-      <td><%= image_tag item.image.url %></td>
+      <td><%= image_tag item.image.tiny.url %></td>
       <td><%= item.description %></td>
       <td><%= item.quantity %></td>
-      <td>$<%= item.total_price_cents %></td>
+      <td>$<%= item.total_price_cents / 100 %></td>
     </tr>
      <% end %>
   </tbody>
