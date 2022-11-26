@@ -1,6 +1,6 @@
 # Jungle
 
-A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
+A mini e-commerce application built with Rails 6.1. This is Lighthouse Labs projects for which I worked with an existing code adding new features progressively. 
 
 ## Setup
 
@@ -29,3 +29,10 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 - Bootstrap 5
 - PostgreSQL 9.x
 - Stripe
+
+![Screen Shot 2022-11-26 at 10 29 06 AM](https://user-images.githubusercontent.com/75033003/204096665-0444b7aa-f860-408f-b80a-8b574cf4278b.png)
+![Screen Shot 2022-11-26 at 10 30 24 AM](https://user-images.githubusercontent.com/75033003/204096670-6442aef3-01ba-4c9a-8cef-ee913658594c.png)
+![Screen Shot 2022-11-26 at 10 31 18 AM](https://user-images.githubusercontent.com/75033003/204096677-9a3bbf29-6323-4a06-b466-3ac660769cb0.png)
+
+
+
